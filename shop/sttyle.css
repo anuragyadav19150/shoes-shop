@@ -1,0 +1,123 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 5px;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(33.jpg);
+    height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Flamenco', cursive;
+  }
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color:pink;
+  font-weight: 100;
+  text-transform:uppercase;
+  letter-spacing: 4px;
+  margin-top: 70px;
+ }
+
+/*-- main --*/
+
+.a4{
+  color: yellow;
+}
+
+.a3 {
+  width: 35%;
+  margin: 3em auto;
+  background: rgba(0, 0, 0, 0.18);
+  background-size: cover;
+}
+
+.agileits-top {
+  padding: 3em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: 100;
+  width: 94.5%;
+  display: block;
+  border: none;
+  padding: 0.8em;
+  border: solid 1px rgba(255, 255, 255, 0.37);
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  background-position: -800px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+ 
+}
+
+input.email, input.text.pp {
+  margin: 2em 0;
+}
+
+
+
+
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #76b852;
+  outline: none;
+  border: 1px solid #76b852;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 2em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #8DC26F;
+}
+
+.bb{
+  text-transform: uppercase;
+  font-size: 19px;
+  color:#87ceeb;
+}
+/*-- checkbox --*/
+.wthree-text label {
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+  color: red;
+  position: relative;
+}
+
+input.checkbox {
+  background: #8DC26F;
+  cursor: pointer;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+
+
+
+
+
+
+  
+
+ 
+  

@@ -1,0 +1,51 @@
+.g{
+    width: 1180px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Dancing Script', cursive;
+    
+}
+h1{
+    color: black;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.d{
+   display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s ,color 0.2;
+}
+.f{
+    background-color: transparent;
+    color: yellow;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+.e{
+    background-color: transparent;
+    color: yellow;
+    margin-right: 15px;
+    border: 1px solid white; 
+    
+}
+.d:hover{
+    background-color: black;
+}
+.z{
+    animation: colorchange 1s infinite;
+}
+@keyframes colorchange{
+    0%{color: red;}
+    25%{color: pink;}
+    50%{color: palevioletred;}
+    100%{color: orangered;}
+}
